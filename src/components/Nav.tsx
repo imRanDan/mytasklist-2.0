@@ -1,4 +1,6 @@
 import React from 'react'
+import Link from 'next/link'
+import Image from 'next/image'
 
 const Nav = () => {
   return (
@@ -12,7 +14,9 @@ const Nav = () => {
 		</a>
 		<ul className="items-stretch hidden space-x-3 lg:flex">
 			<li className="flex">
-				<a rel="noopener noreferrer" href="#" className="flex items-center px-4 -mb-1 border-b-2 border-transparent text-blue-600 border-blue-600">Link</a>
+					<Link href="/about" passHref 
+						rel="noopener noreferrer" 
+						className="flex items-center px-4 -mb-1 border-b-2 border-transparent text-blue-600 border-blue-600">About</Link>
 			</li>
 			<li className="flex">
 				<a rel="noopener noreferrer" href="#" className="flex items-center px-4 -mb-1 border-b-2 border-transparent">Link</a>
