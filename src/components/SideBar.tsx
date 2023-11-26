@@ -1,6 +1,7 @@
 import React from 'react'
 
 const SideBar = () => {
+  console.log("rendering sidebar")
   return (
     <div className="flex flex-col h-full p-3 w-60 bg-gray-50 text-gray-800">
       <div className="space-y-3">
