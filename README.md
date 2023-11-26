@@ -1,3 +1,24 @@
+# mytasklist-2.0
+A full-stack task tracker app that keeps a list of your tasks and helps you get into a state of flow to complete them. Currently in development.
+
+**Link to project:** no link as of yet but I will most likely use Vercel or Cyclic
+
+## How It's Made:
+**Tech used:** TypeScript - React - NextJS - MambaUI - TailWindCSS - MongoDB - 
+
+
+## Optimizations
+none as of yet
+
+## Lessons Learned:
+lessons learned so far:
+- how to setup apps and routes/links with NextJS
+
+
+--------------------------------------------------------
+Setup
+--------------------------------------------------------
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
