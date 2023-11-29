@@ -55,9 +55,6 @@ const Features = () => {
 					</div>
 				</div>
 			</div>
-			<div aria-hidden="true" className="mt-10 lg:mt-0">
-				<img src="https://source.unsplash.com/random/360x480" alt="" className="mx-auto rounded-lg shadow-lg bg-gray-500" />
-			</div>
 		</div>
 	</div>
 </section>
