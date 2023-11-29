@@ -1,3 +1,5 @@
+import React from 'react'
+import type { ReactNode } from 'react'
 import '../app/globals.css'
 import { Inter } from 'next/font/google'
 import Head from 'next/head'
