@@ -4,8 +4,12 @@ import Head from 'next/head'
 
 const inter = Inter({ subsets: ['latin'] })
 
+type RootLayoutProps = {
+  children: ReactNode;
+}
 
-const RootLayout: React.FC = ({ children }) => {
+
+const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
   return (
     <>
       <Head>
