@@ -3,7 +3,7 @@ import React from 'react'
 const Form = () => {
   return (
   <section className="p-6 bg-gray-100 text-gray-900">
-	  <form action="" className="container flex flex-col mx-auto space-y-12">
+	  <form noValidate action="" className="container flex flex-col mx-auto space-y-12">
 		  <fieldset className="grid grid-cols-4 gap-6 p-6 rounded-md shadow-sm bg-gray-50">
 			  <div className="space-y-2 col-span-full lg:col-span-1">
 				  <p className="font-medium">Personal Inormation</p>
