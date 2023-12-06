@@ -11,4 +11,6 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     // Error handling here
     res.status(500).json({ error: 'Failed to connect to db BIG OOF!'})
   }
+
+  console.log('working?')
 }
