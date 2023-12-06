@@ -6,7 +6,7 @@ const signup = () => {
   return (
     <>
       <Nav />
-      {/* <Form /> */}
+      <Form />
     
     </>
   )
