@@ -1,4 +1,4 @@
-import Form from '@/components/Form'
+import Signup from '@/components/Signup'
 import Nav from '@/components/Nav'
 import React from 'react'
 
@@ -6,7 +6,7 @@ const signup = () => {
   return (
     <>
       <Nav />
-      <Form />
+      <Signup/>
     
     </>
   )
