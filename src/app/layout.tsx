@@ -13,9 +13,13 @@ type RootLayoutProps = {
 
 const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
   return (
-    <div className={`bg-gray-100 ${inter.className}`}>
-      {children}
-    </div>
+    <html>
+      <body>
+      <div className={`bg-gray-100 ${inter.className}`}>
+        {children}
+      </div>
+      </body>
+    </html>
   )
 }
 
