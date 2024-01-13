@@ -1,5 +1,4 @@
 import '../app/globals.css'
-import '../app/page'
 import type { AppProps } from 'next/app'
 import RootLayout from '@/app/layout'
 
