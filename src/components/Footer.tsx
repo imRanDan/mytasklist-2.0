@@ -22,13 +22,7 @@ const Footer = () => {
 		</div>
 		<ul className="flex flex-wrap pl-3 space-x-4 sm:space-x-8">
 			<li>
-				<a rel="noopener noreferrer" href="#">Instagram</a>
-			</li>
-			<li>
-				<a rel="noopener noreferrer" href="#">Facebook</a>
-			</li>
-			<li>
-				<a rel="noopener noreferrer" href="#">Twitter</a>
+				<p>Developed by: <a className="underline" href="https://danyalimran.com/" target='_blank'>Danyal Imran</a></p>
 			</li>
 		</ul>
 	</div>
