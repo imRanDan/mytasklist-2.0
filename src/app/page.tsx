@@ -8,12 +8,12 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <>
-      <Nav />
-      <Hero />
-      <Features />
-      <CallToAction />
-      <Footer />  
-    </>
+    <div>
+      <Nav/>
+      <Hero/>
+      <Features/>
+      <CallToAction/>
+      <Footer/>
+    </div>
   )
 }

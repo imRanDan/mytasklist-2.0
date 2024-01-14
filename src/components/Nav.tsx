@@ -3,7 +3,7 @@ import Link from 'next/link'
 const Nav = () => {
 
   return (
-	<header className="p-4 bg-gray-100 text-gray-800">
+	<header className="p-4 bg-gray-100 text-gray-800 dark:bg-gray-900 dark:text-white">
 		<div className="container flex justify-between h-16 mx-auto">
 			<Link href="/" rel="noopener noreferrer" aria-label="Back to homepage" className="flex items-center p-2">
 					<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 32 32" className="w-8 h-8 text-blue-600">
@@ -19,7 +19,7 @@ const Nav = () => {
 							className="flex items-center px-4 -mb-1 border-b-2 border-transparent text-blue-600 border-blue-600">About</Link>
 				</li>
 				<li className="flex">
-					<a rel="noopener noreferrer" href="#" className="flex items-center px-4 -mb-1 border-b-2 border-transparent"></a>
+					<a rel="noopener noreferrer" className="flex items-center px-4 -mb-1 border-b-2 border-transparent"></a>
 				</li>
 			</ul>
 			<div className="items-center flex-shrink-0 hidden lg:flex">
