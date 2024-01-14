@@ -1,3 +1,4 @@
+import '../app/globals.css'
 import Nav from '@/components/Nav'
 import React from 'react'
 import Image from 'next/image'
