@@ -16,7 +16,7 @@ const Nav = () => {
 				<li className="flex">
 						<Link href="/about" passHref 
 							rel="noopener noreferrer" 
-							className="flex items-center px-4 -mb-1 border-b-2 border-transparent text-blue-600 border-blue-600">About</Link>
+							className="flex items-center px-4 -mb-1 border-b-2 border-transparent text-blue-600 border-blue-600 hover:text-white">About</Link>
 				</li>
 				<li className="flex">
 					<a rel="noopener noreferrer" className="flex items-center px-4 -mb-1 border-b-2 border-transparent"></a>
@@ -24,11 +24,11 @@ const Nav = () => {
 			</ul>
 			<div className="items-center flex-shrink-0 hidden lg:flex">
 				<Link href="/login">
-					<button className="self-center px-8 py-3 rounded">Sign in</button>
+					<button className="self-center border-2 px-8 py-3 mx-3 rounded hover:border-blue-600 hover:text-blue-600">Sign in</button>
 				</Link>
 
 				<Link href="/signup">
-					<button className="self-center px-8 py-3 font-semibold rounded bg-blue-600 text-gray-50">
+					<button className="self-center px-8 py-3 font-semibold rounded bg-blue-600 text-gray-50 hover:bg-white hover:text-blue-600">
 						Sign up
 					</button>
 				</Link>
